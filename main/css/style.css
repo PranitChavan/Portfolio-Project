@@ -498,11 +498,11 @@ img {
   }
 
   #process .process-main,
-  #process .process-head {
+#process .process-head {
     margin: 2rem;
   }
   #process .process-main .add,
-  #process .process-head .add {
+#process .process-head .add {
     padding-bottom: 2.9rem;
   }
 
@@ -714,5 +714,28 @@ img {
     margin-left: 50px;
   }
 }
+@media (max-height: 580px) {
+  #header .header-main {
+    padding-top: 0;
+    padding-left: 50%;
+  }
 
-/*# sourceMappingURL=file:///c:/Users/acer/Desktop/programming/Portfolio%20website/css/style.css.map */ /*# sourceMappingURL=style.css.map */
+  #spec {
+    margin: 3rem;
+    padding-bottom: 1rem;
+  }
+
+  #process {
+    padding: 3rem;
+  }
+
+  #header-1 .header-nav {
+    justify-content: space-around;
+  }
+
+  #form .form-grp .btn {
+    margin-left: 100px;
+  }
+}
+
+/*# sourceMappingURL=file:///c:/Users/acer/Desktop/programming/Portfolio%20Website%20100%25%20Responsive/main/css/style.css.map *//*# sourceMappingURL=style.css.map */

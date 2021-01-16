@@ -323,3 +323,35 @@
 }
 
 // LANDSCAPE MODE
+
+@media (max-height: 580px) {
+  #header {
+    .header-main {
+      padding-top: 0;
+      padding-left: 50%;
+    }
+  }
+
+  #spec {
+    margin: 3rem;
+    padding-bottom: 1rem;
+  }
+
+  #process {
+    padding: 3rem;
+  }
+
+  #header-1 {
+    .header-nav {
+      justify-content: space-around;
+    }
+  }
+
+  #form {
+    .form-grp {
+      .btn {
+        margin-left: 100px;
+      }
+    }
+  }
+}
