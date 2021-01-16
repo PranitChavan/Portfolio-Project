@@ -1,0 +1,7 @@
+@function dynamic($bgcolor) {
+  @if (lightness($bgcolor) > 50) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}

@@ -1,0 +1,325 @@
+// IPAD TABLETS
+
+@media screen and(min-width:768px) and(max-width:1000px) {
+  .contactpage {
+    margin-top: 283px;
+  }
+
+  .workpage {
+    margin-top: 62.5px;
+  }
+
+  #header-1 {
+    .header-nav {
+      justify-content: space-around;
+    }
+    li {
+      margin-right: 2rem;
+    }
+  }
+
+  #spec {
+    margin: 2rem;
+  }
+
+  #stats {
+    margin: 3rem;
+    margin-right: 2rem;
+    margin-bottom: 0;
+    div {
+      &:nth-child(even) {
+        padding: 0 3rem;
+      }
+    }
+  }
+
+  #header {
+    .header-main {
+      padding-top: 30%;
+      padding-left: 40%;
+    }
+  }
+
+  #process {
+    .process-main,
+    .process-head {
+      margin: 2rem;
+      .add {
+        padding-bottom: 2.9rem;
+      }
+    }
+  }
+
+  #about {
+    margin: 0.5rem;
+    .about-main {
+      display: flex;
+
+      img {
+        width: 340px;
+        height: 450px;
+        flex: 1;
+      }
+    }
+
+    .about-awards {
+      margin: 4rem;
+    }
+  }
+
+  #prog {
+    padding: 6rem;
+  }
+
+  #test {
+    margin: 0 2rem;
+
+    .test-main {
+      ul {
+        display: block;
+        text-align: center;
+      }
+
+      P {
+        padding: 0.5rem;
+      }
+    }
+  }
+}
+
+// SMALL SCREEN'S (MOBILE DEVICES)
+@media screen and(max-width:600px) {
+  // HOME PAGE
+  #header {
+    .header-nav {
+      flex-direction: column;
+      height: 20vh;
+      align-items: center;
+
+      ul {
+        flex-direction: row;
+      }
+    }
+    .header-main {
+      padding-left: 35%;
+
+      h1 {
+        font-size: 40px;
+      }
+      p {
+        font-size: 20px;
+        padding-top: 2rem;
+      }
+    }
+  }
+
+  #spec {
+    margin: 2rem;
+    .spec-show {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  #stats {
+    margin-top: -2rem;
+
+    .stats-main {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  #process {
+    padding: 2rem;
+    .process-main {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  #footer {
+    padding: none;
+
+    .main-footer {
+      display: block;
+
+      ul {
+        display: flex;
+        justify-content: center;
+      }
+
+      p {
+        text-align: center;
+        padding-bottom: 3rem;
+      }
+    }
+  }
+
+  // OTHER PAGES
+  #header-1 {
+    .header-nav {
+      display: block;
+      height: 22.5vh;
+      text-align: center;
+
+      ul {
+        justify-content: center;
+      }
+    }
+  }
+
+  #work {
+    .work-main {
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 1rem;
+      .overlay {
+        .item-text {
+          transform: translateY(30px);
+          h3 {
+            font-size: 10px;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+
+  #form {
+    .form-grp {
+      grid-template-columns: 1fr;
+
+      .btn {
+        margin-left: 50px;
+      }
+    }
+  }
+
+  #about {
+    margin: 0.5rem;
+    .about-main {
+      display: flex;
+      flex-direction: column;
+
+      img {
+        padding-bottom: 1rem;
+      }
+    }
+
+    .about-awards {
+      margin: 3rem;
+      grid-template-columns: 1fr;
+    }
+  }
+
+  #prog {
+    padding: 3rem;
+
+    .progress div {
+      border-radius: 10px;
+    }
+  }
+
+  #logo {
+    padding: 2rem;
+
+    .about-logo {
+      img {
+        width: 100%;
+      }
+      grid-gap: 2rem;
+    }
+  }
+
+  #test {
+    margin: 2rem;
+    .test-main {
+      grid-template-columns: 1fr;
+      grid-gap: none;
+
+      ul {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+      }
+
+      div:nth-child(4) {
+        margin-bottom: 3rem;
+      }
+    }
+  }
+}
+
+// SURFACE DUO SMALL BUTTON TWEAK
+@media (min-width: 540px) and (max-width: 600px) {
+  #form {
+    .form-grp {
+      .btn {
+        margin-left: 80px;
+      }
+    }
+  }
+
+  #test {
+    margin: 4rem;
+  }
+}
+
+// GALAXY FOLD
+
+@media screen and(max-width:280px) {
+  #header {
+    .header-nav {
+      ul {
+        flex-direction: row;
+
+        li {
+          padding: 0.8rem;
+        }
+      }
+    }
+  }
+
+  #header-1 {
+    .header-nav {
+      ul {
+        li {
+          padding-left: 1.5rem;
+        }
+      }
+    }
+  }
+
+  #footer {
+    .main-footer {
+      i {
+        padding-left: 1.5rem;
+      }
+    }
+  }
+
+  #work {
+    padding: 1rem;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+    .work-main {
+      grid-template-columns: 1fr 1fr;
+
+      .overlay {
+        .item-text {
+          transform: translateY(10px);
+        }
+      }
+    }
+  }
+
+  #form {
+    padding: 1rem;
+    .form-grp {
+      .btn {
+        margin-left: 50px;
+      }
+    }
+  }
+}
+
+// LANDSCAPE MODE
